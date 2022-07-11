@@ -1,0 +1,96 @@
+:root {
+  --mainColor: #f5f5f5;
+  --secondColor: #f8f9fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  background: #fff;
+}
+
+/* navbar */
+.navbar {
+}
+.nav-link {
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.nav-link:hover {
+  color: black;
+}
+/* end navbar */
+
+/* hero */
+#hero {
+  margin: 80px auto;
+}
+#hero .hero-tagline {
+  margin: auto;
+  /* padding-left: 40px; */
+}
+.hero-tagline p {
+  width: 80%;
+}
+#hero img {
+  width: 530px;
+  height: 384px;
+  margin: auto;
+}
+/* end hero */
+
+/* pricing */
+#pricing {
+  width: 100%;
+}
+#pricing h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 50px 0;
+  text-align: center;
+}
+#pricing h2 span {
+  font-size: 20px;
+}
+#pricing h3 span {
+  color: #0d6efd;
+}
+
+.price-row {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.price-col {
+  background: #f8f9fa;
+  padding: 10% 10px;
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+}
+
+.price-col ul {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.price-col ul li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+/* .price-col ul li::before {
+  content: "\2705";
+} */
+/* end pricing */
